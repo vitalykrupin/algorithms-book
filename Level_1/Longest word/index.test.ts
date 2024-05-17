@@ -1,6 +1,6 @@
 import { getLongestWord } from './index';
 
-describe.only('Longest word', () => {
+describe('Longest word', () => {
     test('should work', () => {
         expect(getLongestWord('i love segment tree')).toBe('segment');
     });
