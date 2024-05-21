@@ -1,6 +1,6 @@
 import { isPalindrome } from './index';
 
-describe.only('Palindrome', () => {
+describe('Palindrome', () => {
     test('should work', () => {
         expect(isPalindrome('a')).toBe(true);
         expect(isPalindrome('ab')).toBe(false);
